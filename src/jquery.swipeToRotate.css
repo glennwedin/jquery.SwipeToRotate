@@ -1,0 +1,48 @@
+.touchWrapper{
+	width:200px;
+	height:137px;
+	margin: 0 0 15px;
+}
+
+.box{
+	width:200px;
+	height:137px;
+	-webkit-transform-style: preserve-3d;
+	/*-webkit-transition: all .5s ease-in-out;*/
+	transform-style: preserve-3d;
+	
+	/*transition: all .5s ease-in-out;*/
+}
+
+.transitions{
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.box div{
+	position:absolute;
+	width:200px;
+	height: 137px;
+	/*box-shadow:3px 3px 5px #555;*/
+}
+
+.box img{
+	width:200px;	
+}
+
+._1{
+	-webkit-transform:translateZ(100px);
+	transform:translateZ(100px);	
+}
+._2{
+	-webkit-transform: rotateY(90deg) translateZ(100px);
+	transform: rotateY(90deg) translateZ(100px);
+}
+._3{
+	-webkit-transform:translateZ(-100px) rotateY(180deg);
+	transform:translateZ(-100px) rotateY(180deg);
+}
+._4{
+	-webkit-transform: rotateY(-90deg) translateZ(100px);
+	transform: rotateY(-90deg) translateZ(100px);
+}
